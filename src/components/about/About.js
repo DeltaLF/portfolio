@@ -1,8 +1,13 @@
 import React from "react";
+import "./About.css";
 
 class About extends React.Component {
   render() {
-    return <h1>About</h1>;
+    return (
+      <div className="about-main">
+        <h1>About</h1>;
+      </div>
+    );
   }
 }
 

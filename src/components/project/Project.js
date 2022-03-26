@@ -1,8 +1,13 @@
 import React from "react";
+import "./Project.css";
 
 class Project extends React.Component {
   render() {
-    return <h1>Project</h1>;
+    return (
+      <div className="project-main">
+        <h1>Project</h1>;
+      </div>
+    );
   }
 }
 

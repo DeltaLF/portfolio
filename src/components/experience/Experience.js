@@ -1,8 +1,13 @@
 import React from "react";
+import "./Experience.css";
 
 class Experience extends React.Component {
   render() {
-    return <h1>Experience</h1>;
+    return (
+      <div className="experience-main">
+        <h1>Experience</h1>;
+      </div>
+    );
   }
 }
 

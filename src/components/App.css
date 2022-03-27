@@ -132,4 +132,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+#all-contianer {
+  max-width: 100vw;
+  background-color: aquamarine;
+}
 /*# sourceMappingURL=App.css.map */

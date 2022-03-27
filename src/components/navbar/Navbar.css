@@ -1,4 +1,6 @@
 #navbar-main {
+  width: 100vw;
+  max-width: 100%;
   -webkit-box-shadow: 0 6px 4px -3px black;
           box-shadow: 0 6px 4px -3px black;
   position: -webkit-sticky;

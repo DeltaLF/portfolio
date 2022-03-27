@@ -17,4 +17,10 @@ const socialMediaLinks = [
   },
 ];
 
-export { seo, socialMediaLinks };
+const aboutPage = {
+  aboutMe: "    Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  skills: ["Python", "Javascript", "React", "HTML", "CSS", "Bootstarp"],
+  portaitName: "portrait_exapmle.jpg",
+};
+
+export { seo, socialMediaLinks, aboutPage };

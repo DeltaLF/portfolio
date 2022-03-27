@@ -1,0 +1,50 @@
+#navbar-main {
+  box-shadow: 0 6px 4px -3px black;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 5;
+  background-color: whitesmoke;
+  transition: all 1.25s ease;
+  .logo {
+    // margin: 1rem 1rem;
+    margin-right: 0.5rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+  }
+
+  .navbar-list {
+    margin-right: 1rem;
+    flex: 4 1 300px;
+    margin: 1rem 1rem;
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      li {
+        a {
+          text-decoration: none;
+          color: #000;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-main {
+    .log {
+      margin: 1rem 0;
+    }
+    .navbar-list {
+      margin: 1rem 0;
+      width: 100%;
+    }
+  }
+}

@@ -3,8 +3,8 @@ import "./Certificate.css";
 class Certificate extends React.Component {
   render() {
     return (
-      <div className="certificate-main">
-        <h1>Certificate</h1>;
+      <div id="certificate-main">
+        <h1>Certificate</h1>
       </div>
     );
   }

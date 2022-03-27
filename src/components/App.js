@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Navbar from "./navbar/Navbar";
 import Header from "./header/Header";
 import About from "./about/About";
 import Experience from "./experience/Experience";
@@ -10,6 +11,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <Navbar />
         <Header />
         <About />
         <Experience />

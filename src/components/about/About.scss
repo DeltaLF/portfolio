@@ -9,8 +9,9 @@
     width: 100%;
   }
   .left {
-    flex: 3 1 300px;
-    padding: 6rem 0 2rem 6rem;
+    min-width: 0;
+    flex: 3 1 400px;
+    padding: 4rem 0 2rem 4rem;
     display: flex;
     flex-direction: column;
 
@@ -27,13 +28,17 @@
     }
     ol {
       display: flex;
+      flex-wrap: wrap;
+      margin: 1rem;
       li {
-        margin: auto;
+        margin: 1rem;
+        min-width: 0;
+        display: flex;
       }
     }
   }
   .right {
-    flex: 1 1 600px;
+    flex: 1 1 400px;
     position: relative;
     display: flex;
 

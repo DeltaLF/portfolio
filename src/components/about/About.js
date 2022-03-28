@@ -6,14 +6,24 @@ import { Fade } from "react-reveal";
 
 class About extends React.Component {
   renderSkills() {
-    return aboutPage.skills.map((skill) => {
-      return <li>{skill}</li>;
+    return aboutPage.softwareSkills.map((skill) => {
+      return (
+        <li key={skill.skillName}>
+          {skill.skillName}{" "}
+          <span
+            className="iconify"
+            data-icon={skill.fontAwesomeClassname}
+            style={skill.style}
+            data-inline="false"
+          ></span>{" "}
+        </li>
+      );
     });
   }
   render() {
     return (
       <div id="about-main">
-        <Fade left>
+        <Fade left duration={2000}>
           <div className="left">
             <h1>about</h1>{" "}
             <p>
@@ -34,7 +44,7 @@ class About extends React.Component {
           </div>
         </Fade>
         <Fade right>
-          <div className="right">
+          <div className="right" duration={2000}>
             <img className="" src={portraitImage} alt="portrait" />
           </div>
         </Fade>

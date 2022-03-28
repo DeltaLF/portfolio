@@ -19,8 +19,68 @@ const socialMediaLinks = [
 
 const aboutPage = {
   aboutMe: "    Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-  skills: ["Python", "Javascript", "React", "HTML", "CSS", "Bootstarp"],
   portaitName: "portrait_exapmle.jpg",
+  softwareSkills: [
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "ion-logo-python",
+      style: {
+        backgroundColor: "transparent",
+        color: "#3776AB",
+      },
+    },
+    {
+      skillName: "HTML5",
+      fontAwesomeClassname: "simple-icons:html5",
+      style: {
+        color: "#E34F26",
+      },
+    },
+    {
+      skillName: "CSS3",
+      fontAwesomeClassname: "fa-css3",
+      style: {
+        color: "#1572B6",
+      },
+    },
+
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "simple-icons:javascript",
+      style: {
+        backgroundColor: "#000000",
+        color: "#F7DF1E",
+      },
+    },
+    {
+      skillName: "ReactJS",
+      fontAwesomeClassname: "simple-icons:react",
+      style: {
+        color: "#61DAFB",
+      },
+    },
+    {
+      skillName: "NodeJS",
+      fontAwesomeClassname: "simple-icons:node-dot-js",
+      style: {
+        color: "#339933",
+      },
+    },
+    {
+      skillName: "NPM",
+      fontAwesomeClassname: "simple-icons:npm",
+      style: {
+        color: "#CB3837",
+      },
+    },
+    {
+      skillName: "MongoDB",
+      fontAwesomeClassname: "simple-icons:mongodb",
+      style: {
+        color: "#47A248",
+      },
+    },
+  ],
 };
 
 export { seo, socialMediaLinks, aboutPage };

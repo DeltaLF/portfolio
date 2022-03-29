@@ -1,6 +1,21 @@
 #experience-main {
   width: 100%;
-  height: 50vh;
   background-color: #e9edc9;
-  /* background-color: #ccd5ae; */
 }
+
+#experience-main .experience-header {
+  width: 100%;
+  padding: 2rem;
+}
+
+#experience-main .experience-body {
+  width: 100;
+  padding: 2rem;
+}
+
+#experience-main .experience-body .expSkill {
+  padding: 0.75rem;
+  border-radius: 15px;
+  background-color: #f1dbb7;
+}
+/*# sourceMappingURL=Experience.css.map */

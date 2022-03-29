@@ -1,0 +1,17 @@
+#experience-main {
+  width: 100%;
+  background-color: #e9edc9;
+  .experience-header {
+    width: 100%;
+    padding: 2rem;
+  }
+  .experience-body {
+    width: 100;
+    padding: 2rem;
+    .expSkill {
+      padding: 0.75rem;
+      border-radius: 15px;
+      background-color: #f1dbb7;
+    }
+  }
+}

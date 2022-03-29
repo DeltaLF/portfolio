@@ -25,7 +25,7 @@ class About extends React.Component {
       <div id="about-main">
         <Fade left duration={2000}>
           <div className="left">
-            <h1>about</h1>{" "}
+            <h1>About</h1>{" "}
             <p>
               {aboutPage.aboutMe} Lorem ipsum dolor, sit amet consectetur
               adipisicing elit. Dolorem maxime ducimus facilis accusantium ipsam

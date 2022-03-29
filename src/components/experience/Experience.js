@@ -9,27 +9,25 @@ import { experience } from "./../../portfolio";
 
 class Experience extends React.Component {
   renderVerticalTimelineElement() {
-    return experience.map(({ date, title, jobDesc, skillList }) => {
+    return experience.map(({ date, title, jobDesc, skillList, icon }) => {
       return (
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          // contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          // contentArrowStyle={{
-          //   borderRight: "7px solid  rgb(33, 150, 243)",
-          // }}
           date={date}
           iconStyle={{ background: "#B9C29E", color: "#fff" }}
-          // icon={}
-          // icon={<WorkIcon />}
+          icon={<i className={icon}></i>}
         >
           <h3 className="vertical-timeline-element-title"> {title}</h3>
 
           <p> {jobDesc}</p>
           <ol>
             {skillList.map((skill) => {
+              console.log(title + skill);
               return (
-                <li>
-                  <div className="expSkill">{skill}</div>{" "}
+                <li key={title + skill}>
+                  <div className="expSkill" key={title + skill}>
+                    {skill}
+                  </div>{" "}
                 </li>
               );
             })}
@@ -49,10 +47,11 @@ class Experience extends React.Component {
           <VerticalTimeline>
             {this.renderVerticalTimelineElement()}
             <VerticalTimelineElement
-              iconStyle={{ background: "#B9C29E", color: "#fff" }}
-              // icon={
-              //   // <i className="fas fa-hourglass-start mx-auto experience-icon"></i>
-              // }
+              iconStyle={{
+                background: "#B9C29E",
+                color: "#fff",
+              }}
+              icon={<i className="fas fa-hourglass-start mx-auto"></i>}
             />
           </VerticalTimeline>
         </div>

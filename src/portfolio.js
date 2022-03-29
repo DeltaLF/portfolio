@@ -21,6 +21,7 @@ const experience = [
   {
     date: "2021 - present",
     title: "Job titleII",
+    icon: "fab fa-js",
     jobDesc:
       "     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque aliquam, vitae, tempora placeat, quibusdam ex eum cupiditate dolorum deserunt quod dolore officiis voluptates expedita amet ipsa iste debitis quis itaque.",
     skillList: ["javascript", "react", "html", "css"],
@@ -28,6 +29,7 @@ const experience = [
   {
     date: "2018 - present",
     title: "Job title",
+    icon: "fab fa-python",
     jobDesc:
       "     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque aliquam, vitae, tempora placeat, quibusdam ex eum cupiditate dolorum deserunt quod dolore officiis voluptates expedita amet ipsa iste debitis quis itaque.",
     skillList: ["python", "airflow"],

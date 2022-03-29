@@ -5,7 +5,9 @@
 
 #experience-main .experience-header {
   width: 100%;
-  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 #experience-main .experience-body {

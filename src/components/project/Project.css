@@ -1,6 +1,31 @@
 #project-main {
   width: 100%;
-  height: 50vh;
   background-color: black;
+  color: white;
   /* background-color: #fefae0; */
 }
+
+#project-main .project-header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#project-main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 2rem;
+}
+
+#project-main .container .card {
+  color: black;
+  margin: 2rem;
+  width: 25%;
+  height: 50vh;
+  background-color: azure;
+}
+/*# sourceMappingURL=Project.css.map */

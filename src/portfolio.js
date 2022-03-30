@@ -102,4 +102,29 @@ const aboutPage = {
   ],
 };
 
-export { seo, socialMediaLinks, aboutPage, experience };
+const project = [
+  {
+    title: "project1",
+    imgPath: "image path",
+    url: "http://example",
+    projectDesc:
+      "     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque aliquam, vitae, tempora placeat, quibusdam ex eum cupiditate dolorum deserunt quod dolore officiis voluptates expedita amet ipsa iste debitis quis itaque.",
+  },
+  {
+    title: "project2",
+    imgPath: "image path",
+    url: "http://example",
+    projectDesc:
+      "     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque aliquam, vitae, tempora placeat, quibusdam ex eum cupiditate dolorum deserunt quod dolore officiis voluptates expedita amet ipsa iste debitis quis itaque.",
+  },
+
+  {
+    title: "project3",
+    imgPath: "image path",
+    url: "http://example",
+    projectDesc:
+      "     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque aliquam, vitae, tempora placeat, quibusdam ex eum cupiditate dolorum deserunt quod dolore officiis voluptates expedita amet ipsa iste debitis quis itaque.",
+  },
+];
+
+export { seo, socialMediaLinks, aboutPage, experience, project };

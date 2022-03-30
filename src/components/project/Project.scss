@@ -1,0 +1,23 @@
+#project-main {
+  width: 100%;
+
+  background-color: black;
+  color: white;
+  /* background-color: #fefae0; */
+  .project-header {
+    width: 100%;
+    display: flex;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    .card {
+      color: black;
+      margin: 2rem;
+      width: 25%;
+      height: 50vh;
+      background-color: azure;
+    }
+  }
+}

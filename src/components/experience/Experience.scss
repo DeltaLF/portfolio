@@ -1,9 +1,15 @@
 #experience-main {
+  scroll-margin-top: 48px;
+  // prevent navbar hiding header when using id anchor tag
   width: 100%;
   background-color: #e9edc9;
+  // padding: 2rem 0 0 2rem;
   .experience-header {
     width: 100%;
     display: flex;
+    h1 {
+      margin: 2rem 0 0 2rem;
+    }
     //  padding: 2rem 0 0 2rem;
   }
   .experience-body {

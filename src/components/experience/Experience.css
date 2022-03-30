@@ -1,4 +1,5 @@
 #experience-main {
+  scroll-margin-top: 48px;
   width: 100%;
   background-color: #e9edc9;
 }
@@ -8,6 +9,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+#experience-main .experience-header h1 {
+  margin: 2rem 0 0 2rem;
 }
 
 #experience-main .experience-body {

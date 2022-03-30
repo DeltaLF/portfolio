@@ -12,20 +12,64 @@
   display: flex;
 }
 
-#project-main .container {
+#project-main .project-header h1 {
+  margin: 2rem 0 0 2rem;
+}
+
+#project-main .project-body .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 2rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
-#project-main .container .card {
+#project-main .project-body .container .card {
   color: black;
   margin: 2rem;
   width: 25%;
   height: 50vh;
-  background-color: azure;
+  background-color: #fefae0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+#project-main .project-body .container .card h4 {
+  font-size: 1.5rem;
+}
+
+#project-main .project-body .container .card img {
+  margin: 2rem;
+}
+
+#project-main .project-body .container .card p {
+  text-indent: 2rem;
+}
+
+@media screen and (max-width: 1400px) {
+  #project-main .project-body .container .card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #project-main .project-body .container .card {
+    width: 80%;
+  }
 }
 /*# sourceMappingURL=Project.css.map */

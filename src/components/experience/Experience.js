@@ -9,32 +9,35 @@ import { experience } from "./../../portfolio";
 
 class Experience extends React.Component {
   renderVerticalTimelineElement() {
-    return experience.map(({ date, title, jobDesc, skillList, icon }) => {
-      return (
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date={date}
-          iconStyle={{ background: "#B9C29E", color: "#fff" }}
-          icon={<i className={icon}></i>}
-        >
-          <h3 className="vertical-timeline-element-title"> {title}</h3>
+    return experience.map(
+      ({ date, title, jobDesc, skillList, icon }, index) => {
+        return (
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date={date}
+            iconStyle={{ background: "#B9C29E", color: "#fff" }}
+            icon={<i className={icon}></i>}
+            key={index}
+          >
+            <h3 className="vertical-timeline-element-title"> {title}</h3>
 
-          <p> {jobDesc}</p>
-          <ol>
-            {skillList.map((skill) => {
-              console.log(title + skill);
-              return (
-                <li key={title + skill}>
-                  <div className="expSkill" key={title + skill}>
-                    {skill}
-                  </div>{" "}
-                </li>
-              );
-            })}
-          </ol>
-        </VerticalTimelineElement>
-      );
-    });
+            <p> {jobDesc}</p>
+            <ol>
+              {skillList.map((skill, index) => {
+                console.log(title + skill);
+                return (
+                  <li key={index}>
+                    <div className="expSkill" key={title + skill}>
+                      {skill}
+                    </div>{" "}
+                  </li>
+                );
+              })}
+            </ol>
+          </VerticalTimelineElement>
+        );
+      }
+    );
   }
   render() {
     return (

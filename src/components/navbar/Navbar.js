@@ -17,16 +17,16 @@ class Navbar extends React.Component {
               <a href="#">Home</a>
             </li>
             <li>
-              <a href="#about-main">About</a>
+              <a href="#about-page">About</a>
             </li>
             <li>
-              <a href="#experience-main">Experience</a>
+              <a href="#experience-page">Experience</a>
             </li>
             <li>
-              <a href="#project-main ">Project</a>
+              <a href="#project-page ">Project</a>
             </li>
             <li>
-              <a href="#certificate-main">Certificate</a>
+              <a href="#certificate-page">Certificate</a>
             </li>
           </ul>
         </div>

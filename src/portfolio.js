@@ -127,4 +127,10 @@ const project = [
   },
 ];
 
-export { seo, socialMediaLinks, aboutPage, experience, project };
+const certificate = [
+  { title: "certificate 1", imgPath: "certificate path" },
+  { title: "certificate 2", imgPath: "certificate path" },
+  { title: "certificate 3", imgPath: "certificate path" },
+  { title: "certificate 4", imgPath: "certificate path" },
+];
+export { seo, socialMediaLinks, aboutPage, experience, project, certificate };

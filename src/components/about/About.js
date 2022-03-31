@@ -22,7 +22,7 @@ class About extends React.Component {
   }
   render() {
     return (
-      <div id="about-main">
+      <div id="about-page" className="about-page">
         <Fade left duration={2000}>
           <div className="left">
             <h1>About</h1>{" "}

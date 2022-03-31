@@ -1,11 +1,13 @@
 import React from "react";
 import "./Certificate.css";
+import { certificate } from "../../portfolio";
+
 class Certificate extends React.Component {
   renderCertificate() {
-    return [0, 0, 0, 0].map((certficate, ind) => {
+    return certificate.map((certificate, ind) => {
       return (
-        <div className="card" key={ind} style={{ backgroundColor: "pink" }}>
-          <h1>Certificate card</h1>
+        <div className="card" key={ind}>
+          <h2>Certificate card</h2>
           <img src="" alt="certificate" />
         </div>
       );
@@ -13,11 +15,11 @@ class Certificate extends React.Component {
   }
   render() {
     return (
-      <div id="certificate-main">
-        <div className="certificate-header">
-          <h1 id="test">Certificate!</h1>
+      <div className="page certificate-page" id="certificate-page">
+        <div className="page-header">
+          <h1 id="test">Certificate</h1>
         </div>
-        <div className="certificate-body">
+        <div className="page-body">
           <div className="container">{this.renderCertificate()}</div>
         </div>
       </div>

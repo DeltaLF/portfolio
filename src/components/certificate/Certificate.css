@@ -1,73 +1,8 @@
-#certificate-main {
-  width: 100%;
+div > .certificate-page {
   background-color: #e9edc9;
 }
 
-#certificate-main .certificate-header {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#certificate-main .certificate-header h1 {
-  margin: 2rem 0 0 2rem;
-}
-
-#certificate-main .certificate-body .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-#certificate-main .certificate-body .container .card {
-  color: black;
-  margin: 2rem;
-  width: 25%;
-  height: 50vh;
-  background-color: #fefae0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  padding: 1rem;
-}
-
-#certificate-main .certificate-body .container .card h4 {
-  font-size: 1.5rem;
-}
-
-#certificate-main .certificate-body .container .card img {
-  margin: 2rem;
-}
-
-#certificate-main .certificate-body .container .card p {
-  text-indent: 2rem;
-}
-
-@media screen and (max-width: 1400px) {
-  #certificate-main .certificate-body .container .card {
-    width: 40%;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  #certificate-main .certificate-body .container .card {
-    width: 80%;
-  }
+div > .certificate-page .page-body > .container > .card {
+  background-color: #f1dbb7;
 }
 /*# sourceMappingURL=Certificate.css.map */

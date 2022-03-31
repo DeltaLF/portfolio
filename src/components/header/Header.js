@@ -8,7 +8,7 @@ class Header extends React.Component {
     return (
       <div className="header-main">
         <Zoom>
-          <h1 style={{ fontSize: "6em" }}>Header</h1>
+          <h2 style={{ fontSize: "6em" }}>Header</h2>
         </Zoom>
       </div>
     );

@@ -1,26 +1,9 @@
-#experience-main {
-  scroll-margin-top: 48px;
-  width: 100%;
-  background-color: #e9edc9;
-}
-
-#experience-main .experience-header {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#experience-main .experience-header h1 {
-  margin: 2rem 0 0 2rem;
-}
-
-#experience-main .experience-body {
+.page-body {
   width: 100;
   padding: 2rem;
 }
 
-#experience-main .experience-body .expSkill {
+.page-body .expSkill {
   padding: 0.75rem;
   border-radius: 15px;
   background-color: #f1dbb7;

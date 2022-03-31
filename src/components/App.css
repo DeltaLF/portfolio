@@ -144,6 +144,10 @@ h5 {
   vertical-align: baseline;
 }
 
+h1 {
+  margin: 2rem 0 0 2rem;
+}
+
 ol {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -176,5 +180,74 @@ span {
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 2em;
+}
+
+.page {
+  width: 100%;
+  background-color: #e9edc9;
+}
+
+.page .page-header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page .page-body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.page .page-body .container .card {
+  color: black;
+  margin: 2rem;
+  width: 25%;
+  height: 50vh;
+  background-color: #fefae0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.page .page-body .container .card h4 {
+  font-size: 1.5rem;
+}
+
+.page .page-body .container .card img {
+  margin: 2rem;
+}
+
+.page .page-body .container .card p {
+  text-indent: 2rem;
+}
+
+@media screen and (max-width: 1400px) {
+  .page .page-body .container .card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .page .page-body .container .card {
+    width: 80%;
+  }
 }
 /*# sourceMappingURL=App.css.map */

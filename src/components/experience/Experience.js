@@ -41,12 +41,12 @@ class Experience extends React.Component {
   }
   render() {
     return (
-      <div id="experience-main">
-        <div className="experience-header">
+      <div className="page" id="experience-page">
+        <div className="page-header">
           <h1>Experience</h1>
         </div>
 
-        <div className="experience-body">
+        <div className="page-body">
           <VerticalTimeline>
             {this.renderVerticalTimelineElement()}
             <VerticalTimelineElement

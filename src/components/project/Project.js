@@ -16,12 +16,12 @@ class Project extends React.Component {
   }
   render() {
     return (
-      <div id="project-main">
-        <div className="project-header">
+      <div className="page project-page" id="project-page">
+        <div className="page-header">
           <h1>Projects</h1>
         </div>
 
-        <div className="project-body">
+        <div className="page-body">
           <div className="container">{this.renderProjects()}</div>
         </div>
       </div>

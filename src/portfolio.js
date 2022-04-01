@@ -17,6 +17,10 @@ const socialMediaLinks = [
   },
 ];
 
+const header = {
+  intro: ["Hi!", 1000, "I'm xxx, a web developer", 3000],
+};
+
 const experience = [
   {
     date: "2021 - present",
@@ -133,4 +137,12 @@ const certificate = [
   { title: "certificate 3", imgPath: "certificate path" },
   { title: "certificate 4", imgPath: "certificate path" },
 ];
-export { seo, socialMediaLinks, aboutPage, experience, project, certificate };
+export {
+  seo,
+  header,
+  socialMediaLinks,
+  aboutPage,
+  experience,
+  project,
+  certificate,
+};

@@ -1,5 +1,14 @@
-.header-main {
-  width: 100%;
+.header-page {
   height: 100vh;
-  background-color: #e9edc9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
+
+.header-page div {
+  text-align: center;
+  margin: auto;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+/*# sourceMappingURL=Header.css.map */

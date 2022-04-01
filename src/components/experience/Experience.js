@@ -24,7 +24,6 @@ class Experience extends React.Component {
             <p> {jobDesc}</p>
             <ol>
               {skillList.map((skill, index) => {
-                console.log(title + skill);
                 return (
                   <li key={index}>
                     <div className="expSkill" key={title + skill}>

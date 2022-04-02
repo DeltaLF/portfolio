@@ -146,6 +146,7 @@ h5 {
 
 h1 {
   margin: 2rem 0 0 2rem;
+  font-weight: bold;
 }
 
 ol {
@@ -209,8 +210,7 @@ span {
 .page .page-body .container .card {
   color: black;
   margin: 2rem;
-  width: 25%;
-  height: 50vh;
+  width: 40%;
   background-color: #fefae0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -225,15 +225,12 @@ span {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
-.page .page-body .container .card h4 {
-  font-size: 1.5rem;
-}
-
-.page .page-body .container .card img {
-  margin: 2rem;
+.page .page-body .container .card h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
 }
 
 .page .page-body .container .card p {
@@ -242,13 +239,8 @@ span {
 
 @media screen and (max-width: 1400px) {
   .page .page-body .container .card {
-    width: 40%;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .page .page-body .container .card {
-    width: 80%;
+    margin: 1.5rem 0;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=App.css.map */

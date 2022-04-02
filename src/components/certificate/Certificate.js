@@ -1,23 +1,26 @@
 import React from "react";
 import "./Certificate.css";
-import { certificate } from "../../portfolio";
+import { certificates } from "../../portfolio";
 
 class Certificate extends React.Component {
   renderCertificate() {
-    return certificate.map((certificate, ind) => {
+    return certificates.map((certificate, ind) => {
       return (
         <div className="card" key={ind}>
-          <h2>Certificate card</h2>
-          <img src="" alt="certificate" />
+          <h2>{certificate.title}</h2>
+          <div className="card-img">
+            <img src={certificate.imgPath} alt="certificate" />
+          </div>
         </div>
       );
     });
   }
   render() {
+    console.log(certificates);
     return (
       <div className="page certificate-page" id="certificate-page">
         <div className="page-header">
-          <h1 id="test">Certificate</h1>
+          <h1>Certificate</h1>
         </div>
         <div className="page-body">
           <div className="container">{this.renderCertificate()}</div>

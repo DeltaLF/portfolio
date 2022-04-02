@@ -1,3 +1,9 @@
+import cert1 from "./resources/images/certficate/javascript_weired_part.jpg";
+import cert2 from "./resources/images/certficate/modern_react.jpg";
+import cert3 from "./resources/images/certficate/mysql_bootcamp.jpg";
+import cert4 from "./resources/images/certficate/web_dev.jpg";
+import cert5 from "./resources/images/certficate/web_dev_bootcamp.jpg";
+
 const seo = {
   title: "Patrick's Portfolio",
   description: "Hi I am Partick! I am learning coding now.",
@@ -131,11 +137,12 @@ const project = [
   },
 ];
 
-const certificate = [
-  { title: "certificate 1", imgPath: "certificate path" },
-  { title: "certificate 2", imgPath: "certificate path" },
-  { title: "certificate 3", imgPath: "certificate path" },
-  { title: "certificate 4", imgPath: "certificate path" },
+const certificates = [
+  { title: "Javascript", imgPath: cert1 },
+  { title: "React", imgPath: cert2 },
+  { title: "MsySQL", imgPath: cert3 },
+  { title: "Full stack", imgPath: cert4 },
+  { title: "Full stack", imgPath: cert5 },
 ];
 export {
   seo,
@@ -144,5 +151,5 @@ export {
   aboutPage,
   experience,
   project,
-  certificate,
+  certificates,
 };

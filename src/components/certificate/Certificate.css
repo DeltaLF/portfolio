@@ -5,4 +5,19 @@ div > .certificate-page {
 div > .certificate-page .page-body > .container > .card {
   background-color: #f1dbb7;
 }
+
+div > .certificate-page .page-body > .container > .card .card-img {
+  margin: 2rem;
+}
+
+div > .certificate-page .page-body > .container > .card .card-img img {
+  margin: auto;
+  width: 100%;
+}
+
+@media screen and (max-width: 1400px) {
+  div > .certificate-page .page-body > .container > .card .card-img {
+    margin: 0rem;
+  }
+}
 /*# sourceMappingURL=Certificate.css.map */

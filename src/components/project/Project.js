@@ -7,7 +7,7 @@ class Project extends React.Component {
     return project.map(({ title, imgpath, url, projectDesc }, index) => {
       return (
         <div className="card" key={index}>
-          <h4>{title}</h4>
+          <h2>{title}</h2>
           <img src="" alt="project image" />
           <p>{projectDesc}</p>
         </div>

@@ -8,11 +8,7 @@ class Header extends React.Component {
     return (
       <div className="page header-page">
         <div>
-          <Typical
-            steps={header.intro}
-            // loop={Infinity}
-            wrapper="p"
-          ></Typical>
+          <Typical steps={header.intro} loop={Infinity} wrapper="p"></Typical>
         </div>
       </div>
     );

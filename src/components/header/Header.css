@@ -6,6 +6,7 @@
 }
 
 .header-page div {
+  min-width: 0;
   text-align: center;
   margin: auto;
   font-size: 3.5rem;

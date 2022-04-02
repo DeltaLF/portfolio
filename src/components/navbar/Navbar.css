@@ -1,4 +1,4 @@
-#navbar-main {
+.navbar-main {
   width: 100vw;
   max-width: 100%;
   -webkit-box-shadow: 0 6px 4px -3px black;
@@ -17,7 +17,7 @@
   transition: all 1.25s ease;
 }
 
-#navbar-main .logo {
+.navbar-main .logo {
   margin-right: 0.5rem;
   font-size: 2rem;
   display: -webkit-box;
@@ -28,12 +28,12 @@
           align-items: center;
 }
 
-#navbar-main .logo a {
+.navbar-main .logo a {
   text-decoration: none;
   color: #000;
 }
 
-#navbar-main .navbar-list {
+.navbar-main .navbar-list {
   margin-right: 1rem;
   -webkit-box-flex: 4;
       -ms-flex: 4 1 300px;
@@ -42,7 +42,7 @@
   font-weight: bold;
 }
 
-#navbar-main .navbar-list ul {
+.navbar-main .navbar-list ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,7 +54,7 @@
           justify-content: space-between;
 }
 
-#navbar-main .navbar-list ul li a {
+.navbar-main .navbar-list ul li a {
   text-decoration: none;
   color: #000;
 }
@@ -64,8 +64,9 @@
     margin: 1rem 0;
   }
   .navbar-main .navbar-list {
-    margin: 1rem 0;
+    margin: 1rem 0.3rem;
     width: 100%;
+    font-size: 1.2rem;
   }
 }
 /*# sourceMappingURL=Navbar.css.map */

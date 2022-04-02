@@ -1,4 +1,5 @@
 .about-page {
+  scroll-margin-top: 48px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7,11 +8,8 @@
       flex-wrap: wrap;
 }
 
-.about-page .about-header {
-  width: 100%;
-}
-
 .about-page .left {
+  width: 100%;
   min-width: 0;
   -webkit-box-flex: 3;
       -ms-flex: 3 1 400px;
@@ -24,6 +22,15 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.about-page .left .left-header {
+  margin: 2rem 0 0 2rem;
+}
+
+.about-page .left .left-header h1 {
+  width: 100%;
+  margin: 0;
 }
 
 .about-page .left h3 {

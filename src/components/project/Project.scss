@@ -79,12 +79,23 @@ div > .project-page {
   background-color: black;
   color:white;
   .page-body > .container > .card {
+    padding: 0;
     .card-img{
-      margin:2rem;
+      margin:0;
+       overflow:hidden;
       img{
-        margin: auto;
+        margin: 0;
         width: 100%;
+        //  object-fit:cover;
+      
+        &:hover{
+          background-color: black;
+          transform:  scale(1.1);
+          transition: .5s;
+        }
       }
+
+      
     }
 
   }

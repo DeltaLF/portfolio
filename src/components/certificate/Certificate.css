@@ -1,9 +1,8 @@
 div > .certificate-page .page-body > .container > .card .card-img {
-  margin: 2rem;
+  padding: 0;
 }
 
 div > .certificate-page .page-body > .container > .card .card-img img {
-  margin: auto;
   width: 100%;
 }
 

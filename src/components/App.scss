@@ -199,16 +199,23 @@ span {
         flex-direction: column;
         align-items: center;
         text-align: center;
-            padding: 0.5rem;
+         
         h2 {
           font-size: 2rem;
           margin: 1rem 0;
         }
      
-
-        p {
-          text-indent: 2rem;
-        }
+.card-body{
+  border:1px solid #A8B090;
+  margin: .5rem;
+  padding: 1rem;
+  p {
+    
+    font-size: 1.5rem;
+    text-indent: 2rem;
+  }
+}
+  
       }
     }
   }
@@ -224,6 +231,19 @@ span {
         .card {
         margin: 1.5rem 0;
           width: 100%;
+          h2 {
+            font-size: 1.5rem;
+            margin: .5rem 0;
+          }
+          .card-body{
+            margin: 0.5rem;
+            p {
+              
+              font-size: 1rem;
+              text-indent: 2rem;
+            }
+          }
+            
         }
       }
     }

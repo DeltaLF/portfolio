@@ -225,7 +225,6 @@ span {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  padding: 0.5rem;
 }
 
 .page .page-body .container .card h2 {
@@ -233,7 +232,14 @@ span {
   margin: 1rem 0;
 }
 
-.page .page-body .container .card p {
+.page .page-body .container .card .card-body {
+  border: 1px solid #A8B090;
+  margin: .5rem;
+  padding: 1rem;
+}
+
+.page .page-body .container .card .card-body p {
+  font-size: 1.5rem;
   text-indent: 2rem;
 }
 
@@ -241,6 +247,17 @@ span {
   .page .page-body .container .card {
     margin: 1.5rem 0;
     width: 100%;
+  }
+  .page .page-body .container .card h2 {
+    font-size: 1.5rem;
+    margin: .5rem 0;
+  }
+  .page .page-body .container .card .card-body {
+    margin: 0.5rem;
+  }
+  .page .page-body .container .card .card-body p {
+    font-size: 1rem;
+    text-indent: 2rem;
   }
 }
 /*# sourceMappingURL=App.css.map */

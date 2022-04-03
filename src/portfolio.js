@@ -118,26 +118,26 @@ const aboutPage = {
 
 const project = [
   {
-    title: "project1",
+    title: "Online Course MERN project",
     imgPath: project1,
     url: "https://github.com/DeltaLF/online-course",
     projectDesc:
-      "     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque aliquam, vitae, tempora placeat, quibusdam ex eum cupiditate dolorum deserunt quod dolore officiis voluptates expedita amet ipsa iste debitis quis itaque.",
+      "Start from scratch to build a online learning website based on MERN stack (MongoDB, Express, React, NodeJS).  Authentication is implemented by jwt token. You can register an account to create course, subscribe course, put course in shop cart. Also, there is a new students promotion only existing in new user for 5 hours which is implemented by localStorage.",
   },
   {
-    title: "project2",
+    title: "Video Search React project",
     imgPath: project2,
     url: "https://github.com/DeltaLF/video-app",
     projectDesc:
-      "     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque aliquam, vitae, tempora placeat, quibusdam ex eum cupiditate dolorum deserunt quod dolore officiis voluptates expedita amet ipsa iste debitis quis itaque.",
+      "A React front end website that can search youtube videos, wikipedia by making api request. The api request is made through Netlify serverless function to prevent api key being accessed directly.",
   },
 
   {
-    title: "project3",
+    title: "Yelp Camp Node Express project",
     imgPath: project3,
     url: "https://github.com/DeltaLF/yelpcamp-",
     projectDesc:
-      "     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque aliquam, vitae, tempora placeat, quibusdam ex eum cupiditate dolorum deserunt quod dolore officiis voluptates expedita amet ipsa iste debitis quis itaque.",
+      "A project modified from The Web Developer Bootcamp. This site is built by node, express, ejs, mongodb atlas and it can be used to create and share camp information. I add some extra features that are passport Google login, review editable, middleware to check login status, user image schema, user able to be deleted.",
   },
 ];
 

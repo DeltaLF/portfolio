@@ -68,7 +68,54 @@
 //   }
 // }
 
+
+
+// div > .project-page {
+//   background-color: black;
+//   color: white;
+// }
+
 div > .project-page {
   background-color: black;
-  color: white;
+  color:white;
+  .page-body > .container > .card {
+    padding: 0;
+    .card-img{
+      margin:0;
+       overflow:hidden;
+      img{
+        margin: 0;
+        width: 100%;
+        //  object-fit:cover;
+      
+        &:hover{
+          background-color: black;
+          transform:  scale(1.1);
+          transition: .5s;
+        }
+      }
+
+      
+    }
+
+  }
+}
+
+
+
+@media screen and (max-width: 1400px) {
+  div > .project-page {
+
+    .page-body > .container > .card {
+   
+      .card-img{
+        margin:0rem;
+        // img{
+        //   margin: auto;
+        //   width: 100%;
+        // }
+      }
+  
+    }
+  }
 }

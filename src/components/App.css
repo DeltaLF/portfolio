@@ -146,6 +146,7 @@ h5 {
 
 h1 {
   margin: 2rem 0 0 2rem;
+  font-weight: bold;
 }
 
 ol {
@@ -185,7 +186,7 @@ span {
 .page {
   scroll-margin-top: 48px;
   width: 100%;
-  background-color: #e9edc9;
+  background-color: #A8B090;
 }
 
 .page .page-header {
@@ -209,9 +210,8 @@ span {
 .page .page-body .container .card {
   color: black;
   margin: 2rem;
-  width: 25%;
-  height: 50vh;
-  background-color: #fefae0;
+  width: 40%;
+  background-color: #E9EDC9;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -225,30 +225,39 @@ span {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+}
+
+.page .page-body .container .card h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.page .page-body .container .card .card-body {
+  border: 1px solid #A8B090;
+  margin: .5rem;
   padding: 1rem;
 }
 
-.page .page-body .container .card h4 {
+.page .page-body .container .card .card-body p {
   font-size: 1.5rem;
-}
-
-.page .page-body .container .card img {
-  margin: 2rem;
-}
-
-.page .page-body .container .card p {
   text-indent: 2rem;
 }
 
 @media screen and (max-width: 1400px) {
   .page .page-body .container .card {
-    width: 40%;
+    margin: 1.5rem 0;
+    width: 100%;
   }
-}
-
-@media screen and (max-width: 900px) {
-  .page .page-body .container .card {
-    width: 80%;
+  .page .page-body .container .card h2 {
+    font-size: 1.5rem;
+    margin: .5rem 0;
+  }
+  .page .page-body .container .card .card-body {
+    margin: 0.5rem;
+  }
+  .page .page-body .container .card .card-body p {
+    font-size: 1rem;
+    text-indent: 2rem;
   }
 }
 /*# sourceMappingURL=App.css.map */

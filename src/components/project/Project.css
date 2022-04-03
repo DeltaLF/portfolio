@@ -2,4 +2,32 @@ div > .project-page {
   background-color: black;
   color: white;
 }
+
+div > .project-page .page-body > .container > .card {
+  padding: 0;
+}
+
+div > .project-page .page-body > .container > .card .card-img {
+  margin: 0;
+  overflow: hidden;
+}
+
+div > .project-page .page-body > .container > .card .card-img img {
+  margin: 0;
+  width: 100%;
+}
+
+div > .project-page .page-body > .container > .card .card-img img:hover {
+  background-color: black;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+@media screen and (max-width: 1400px) {
+  div > .project-page .page-body > .container > .card .card-img {
+    margin: 0rem;
+  }
+}
 /*# sourceMappingURL=Project.css.map */

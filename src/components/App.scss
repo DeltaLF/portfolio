@@ -1,3 +1,7 @@
+$theme-background : #A8B090;
+$theme-card :  #E9EDC9;
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -122,6 +126,8 @@ table {
   border-spacing: 0;
 }
 
+// end of reset
+
 * {
   box-sizing: border-box;
   // prevent padding casues overflow
@@ -141,6 +147,7 @@ h5 {
 }
 h1 {
   margin: 2rem 0 0 2rem;
+  font-weight: bold;
 }
 
 ol {
@@ -168,8 +175,8 @@ span {
 .page {
   scroll-margin-top: 48px;
   width: 100%;
-
-  background-color: #e9edc9;
+  background-color: $theme-background ;
+  // background-color: #e9edc9;
 
   .page-header {
     width: 100%;
@@ -184,24 +191,31 @@ span {
       .card {
         color: black;
         margin: 2rem;
-        width: 25%;
-        height: 50vh;
-        background-color: #fefae0;
+        width: 40%;
+        // height: 50vh;
+        background-color: $theme-card ;
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        h4 {
-          font-size: 1.5rem;
+         
+        h2 {
+          font-size: 2rem;
+          margin: 1rem 0;
         }
-        padding: 1rem;
-        img {
-          margin: 2rem;
-        }
-        p {
-          text-indent: 2rem;
-        }
+     
+.card-body{
+  border:1px solid #A8B090;
+  margin: .5rem;
+  padding: 1rem;
+  p {
+    
+    font-size: 1.5rem;
+    text-indent: 2rem;
+  }
+}
+  
       }
     }
   }
@@ -213,22 +227,23 @@ span {
     // }
     .page-body {
       .container {
+      
         .card {
-          width: 40%;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .page {
-    // .page-header {
-    // }
-    .page-body {
-      .container {
-        .card {
-          width: 80%;
+        margin: 1.5rem 0;
+          width: 100%;
+          h2 {
+            font-size: 1.5rem;
+            margin: .5rem 0;
+          }
+          .card-body{
+            margin: 0.5rem;
+            p {
+              
+              font-size: 1rem;
+              text-indent: 2rem;
+            }
+          }
+            
         }
       }
     }

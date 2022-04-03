@@ -1,3 +1,13 @@
+import cert1 from "./resources/images/certificate/javascript_weired_part.jpg";
+import cert2 from "./resources/images/certificate/modern_react.jpg";
+import cert3 from "./resources/images/certificate/mysql_bootcamp.jpg";
+import cert4 from "./resources/images/certificate/web_dev.jpg";
+import cert5 from "./resources/images/certificate/web_dev_bootcamp.jpg";
+
+import project1 from "./resources/images/project/onlineCourse.jpg";
+import project2 from "./resources/images/project/videos.jpg";
+import project3 from "./resources/images/project/yelpCamp.jpg";
+
 const seo = {
   title: "Patrick's Portfolio",
   description: "Hi I am Partick! I am learning coding now.",
@@ -18,7 +28,7 @@ const socialMediaLinks = [
 ];
 
 const header = {
-  intro: ["Hi!", 1000, "I'm xxx, a web developer", 3000],
+  intro: ["Hello World!", 1000, "I'm xxx, a web developer", 3000],
 };
 
 const experience = [
@@ -108,34 +118,35 @@ const aboutPage = {
 
 const project = [
   {
-    title: "project1",
-    imgPath: "image path",
-    url: "http://example",
+    title: "Online Course MERN project",
+    imgPath: project1,
+    url: "https://github.com/DeltaLF/online-course",
     projectDesc:
-      "     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque aliquam, vitae, tempora placeat, quibusdam ex eum cupiditate dolorum deserunt quod dolore officiis voluptates expedita amet ipsa iste debitis quis itaque.",
+      "Start from scratch to build a online learning website based on MERN stack (MongoDB, Express, React, NodeJS).  Authentication is implemented by jwt token. You can register an account to create course, subscribe course, put course in shop cart. Also, there is a new students promotion only existing in new user for 5 hours which is implemented by localStorage.",
   },
   {
-    title: "project2",
-    imgPath: "image path",
-    url: "http://example",
+    title: "Video Search React project",
+    imgPath: project2,
+    url: "https://github.com/DeltaLF/video-app",
     projectDesc:
-      "     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque aliquam, vitae, tempora placeat, quibusdam ex eum cupiditate dolorum deserunt quod dolore officiis voluptates expedita amet ipsa iste debitis quis itaque.",
+      "A React front end website that can search youtube videos, wikipedia by making api request. The api request is made through Netlify serverless function to prevent api key being accessed directly.",
   },
 
   {
-    title: "project3",
-    imgPath: "image path",
-    url: "http://example",
+    title: "Yelp Camp Node Express project",
+    imgPath: project3,
+    url: "https://github.com/DeltaLF/yelpcamp-",
     projectDesc:
-      "     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque aliquam, vitae, tempora placeat, quibusdam ex eum cupiditate dolorum deserunt quod dolore officiis voluptates expedita amet ipsa iste debitis quis itaque.",
+      "A project modified from The Web Developer Bootcamp. This site is built by node, express, ejs, mongodb atlas and it can be used to create and share camp information. I add some extra features that are passport Google login, review editable, middleware to check login status, user image schema, user able to be deleted.",
   },
 ];
 
-const certificate = [
-  { title: "certificate 1", imgPath: "certificate path" },
-  { title: "certificate 2", imgPath: "certificate path" },
-  { title: "certificate 3", imgPath: "certificate path" },
-  { title: "certificate 4", imgPath: "certificate path" },
+const certificates = [
+  { title: "Javascript", imgPath: cert1 },
+  { title: "React", imgPath: cert2 },
+  { title: "MsySQL", imgPath: cert3 },
+  { title: "Full stack", imgPath: cert4 },
+  { title: "Full stack", imgPath: cert5 },
 ];
 export {
   seo,
@@ -144,5 +155,5 @@ export {
   aboutPage,
   experience,
   project,
-  certificate,
+  certificates,
 };

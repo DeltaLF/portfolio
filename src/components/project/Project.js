@@ -4,12 +4,17 @@ import { project } from "../../portfolio";
 
 class Project extends React.Component {
   renderProjects() {
-    return project.map(({ title, imgpath, url, projectDesc }, index) => {
+    return project.map(({ title, imgPath, url, projectDesc }, index) => {
       return (
         <div className="card" key={index}>
-          <h4>{title}</h4>
-          <img src="" alt="project image" />
-          <p>{projectDesc}</p>
+          <div className="card-img">
+            <a href={url}>
+              <img src={imgPath} alt="project image" />
+            </a>
+          </div>
+          <div className="card-body">
+            <h2>{title}</h2> <p>{projectDesc}</p>
+          </div>
         </div>
       );
     });

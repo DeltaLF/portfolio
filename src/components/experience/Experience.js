@@ -15,7 +15,7 @@ class Experience extends React.Component {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date={date}
-            iconStyle={{ background: "#B9C29E", color: "#fff" }}
+            iconStyle={{ background: "#7E846C", color: "#fff" }}
             icon={<i className={icon}></i>}
             key={index}
           >
@@ -50,7 +50,7 @@ class Experience extends React.Component {
             {this.renderVerticalTimelineElement()}
             <VerticalTimelineElement
               iconStyle={{
-                background: "#B9C29E",
+                background: "#7E846C",
                 color: "#fff",
               }}
               icon={<i className="fas fa-hourglass-start mx-auto"></i>}

@@ -8,6 +8,8 @@ import project1 from "./resources/images/project/onlineCourse.jpg";
 import project2 from "./resources/images/project/videos.jpg";
 import project3 from "./resources/images/project/yelpCamp.jpg";
 
+import portrait from "./resources/images/me/me.jpg";
+
 const seo = {
   title: "Patrick's Portfolio",
   description: "Hi I am Partick! I am learning coding now.",
@@ -51,8 +53,11 @@ const experience = [
 ];
 
 const aboutPage = {
-  aboutMe: "    Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-  portaitName: "portrait_exapmle.jpg",
+  aboutMe: [
+    "I am currently an anti-virus analyst who is responsible for reading and analyzing other people’s code. During this process I gradually realize that what I want is more than just watching. I also want to create something (of course not malicious things) so I start to take online courses from Udemy and now I am able to build website with MERN stack. I found joy and sense of achievement in learning and building website. ",
+    " In my free time I love to go outdoor. Hiking, swimming, biking are all included. Maybe I just like to move it!",
+  ],
+  portaitPath: portrait,
   softwareSkills: [
     {
       skillName: "Python",

@@ -29,27 +29,20 @@ class About extends React.Component {
               {" "}
               <h1>About</h1>
             </div>
+            {aboutPage.aboutMe.map((line, index) => (
+              <p key={index}>{line}</p>
+            ))}
 
-            <p>
-              {aboutPage.aboutMe} Lorem ipsum dolor, sit amet consectetur
-              adipisicing elit. Dolorem maxime ducimus facilis accusantium ipsam
-              vero, odio odit blanditiis vel perferendis! Facere nulla,
-              praesentium nobis alias sed vitae iure! Natus, recusandae? Ut quis
-              quod commodi voluptas enim asperiores impedit et hic molestias,
-              odit ipsum recusandae, dolorem quisquam explicabo quasi vero nisi
-              odio? Voluptatum est magnam dolorum laborum modi facilis quibusdam
-              obcaecati. Optio, porro laboriosam sequi inventore nihil sint,
-              similique exercitationem, hic impedit repellendus earum nostrum
-              magnam fugiat est ipsam laborum ad. Libero, ipsa. Provident modi
-              voluptas alias possimus, nihil quae fugit.
-            </p>
-            <h3>Skills:</h3>
+            <div className="left-header">
+              <h3>Skills:</h3>
+            </div>
+
             <ol>{this.renderSkills()}</ol>
           </div>
         </Fade>
         <Fade right>
           <div className="right" duration={2000}>
-            <img className="" src={portraitImage} alt="portrait" />
+            <img className="" src={aboutPage.portaitPath} alt="portrait" />
           </div>
         </Fade>
       </div>

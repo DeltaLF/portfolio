@@ -25,22 +25,32 @@
 }
 
 .about-page .left .left-header {
-  margin: 2rem 0 0 2rem;
+  margin: 2rem 0 2rem 0;
 }
 
 .about-page .left .left-header h1 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   width: 100%;
   margin: 0;
 }
 
 .about-page .left h3 {
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
 }
 
 .about-page .left p {
-  margin: 2rem 0;
+  text-indent: 2rem;
+  font-size: 1.5rem;
+}
+
+.about-page .left ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.5rem;
 }
 
 .about-page .right {
@@ -54,27 +64,14 @@
 }
 
 .about-page .right img {
-  width: 20vw;
+  width: 80%;
   height: auto;
   margin: auto;
 }
 
 @media screen and (max-width: 1050px) {
   .about-page .left {
-    padding: 2rem 2rem;
-  }
-  .about-page .right img {
-    width: 25vw;
-    margin: 3em auto;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .about-page .left {
     padding: 0.5rem 1rem;
-  }
-  .about-page .right img {
-    width: 40vw;
   }
 }
 /*# sourceMappingURL=About.css.map */

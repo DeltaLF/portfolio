@@ -186,7 +186,7 @@ span {
 .page {
   scroll-margin-top: 48px;
   width: 100%;
-  background-color: #e9edc9;
+  background-color: #A8B090;
 }
 
 .page .page-header {
@@ -211,7 +211,7 @@ span {
   color: black;
   margin: 2rem;
   width: 40%;
-  background-color: #fefae0;
+  background-color: #E9EDC9;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

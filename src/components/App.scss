@@ -1,3 +1,7 @@
+$theme-background : #A8B090;
+$theme-card :  #E9EDC9;
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -122,6 +126,8 @@ table {
   border-spacing: 0;
 }
 
+// end of reset
+
 * {
   box-sizing: border-box;
   // prevent padding casues overflow
@@ -169,8 +175,8 @@ span {
 .page {
   scroll-margin-top: 48px;
   width: 100%;
-
-  background-color: #e9edc9;
+  background-color: $theme-background ;
+  // background-color: #e9edc9;
 
   .page-header {
     width: 100%;
@@ -187,7 +193,7 @@ span {
         margin: 2rem;
         width: 40%;
         // height: 50vh;
-        background-color: #fefae0;
+        background-color: $theme-card ;
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;

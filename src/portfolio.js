@@ -1,8 +1,12 @@
-import cert1 from "./resources/images/certficate/javascript_weired_part.jpg";
-import cert2 from "./resources/images/certficate/modern_react.jpg";
-import cert3 from "./resources/images/certficate/mysql_bootcamp.jpg";
-import cert4 from "./resources/images/certficate/web_dev.jpg";
-import cert5 from "./resources/images/certficate/web_dev_bootcamp.jpg";
+import cert1 from "./resources/images/certificate/javascript_weired_part.jpg";
+import cert2 from "./resources/images/certificate/modern_react.jpg";
+import cert3 from "./resources/images/certificate/mysql_bootcamp.jpg";
+import cert4 from "./resources/images/certificate/web_dev.jpg";
+import cert5 from "./resources/images/certificate/web_dev_bootcamp.jpg";
+
+import project1 from "./resources/images/project/onlineCourse.jpg";
+import project2 from "./resources/images/project/videos.jpg";
+import project3 from "./resources/images/project/yelpCamp.jpg";
 
 const seo = {
   title: "Patrick's Portfolio",
@@ -24,7 +28,7 @@ const socialMediaLinks = [
 ];
 
 const header = {
-  intro: ["Hi!", 1000, "I'm xxx, a web developer", 3000],
+  intro: ["Hello World!", 1000, "I'm xxx, a web developer", 3000],
 };
 
 const experience = [
@@ -115,23 +119,23 @@ const aboutPage = {
 const project = [
   {
     title: "project1",
-    imgPath: "image path",
-    url: "http://example",
+    imgPath: project1,
+    url: "https://github.com/DeltaLF/online-course",
     projectDesc:
       "     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque aliquam, vitae, tempora placeat, quibusdam ex eum cupiditate dolorum deserunt quod dolore officiis voluptates expedita amet ipsa iste debitis quis itaque.",
   },
   {
     title: "project2",
-    imgPath: "image path",
-    url: "http://example",
+    imgPath: project2,
+    url: "https://github.com/DeltaLF/video-app",
     projectDesc:
       "     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque aliquam, vitae, tempora placeat, quibusdam ex eum cupiditate dolorum deserunt quod dolore officiis voluptates expedita amet ipsa iste debitis quis itaque.",
   },
 
   {
     title: "project3",
-    imgPath: "image path",
-    url: "http://example",
+    imgPath: project3,
+    url: "https://github.com/DeltaLF/yelpcamp-",
     projectDesc:
       "     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque aliquam, vitae, tempora placeat, quibusdam ex eum cupiditate dolorum deserunt quod dolore officiis voluptates expedita amet ipsa iste debitis quis itaque.",
   },

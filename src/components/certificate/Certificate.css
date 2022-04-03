@@ -1,11 +1,3 @@
-div > .certificate-page {
-  background-color: #e9edc9;
-}
-
-div > .certificate-page .page-body > .container > .card {
-  background-color: #f1dbb7;
-}
-
 div > .certificate-page .page-body > .container > .card .card-img {
   margin: 2rem;
 }

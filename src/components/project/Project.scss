@@ -68,7 +68,43 @@
 //   }
 // }
 
+
+
+// div > .project-page {
+//   background-color: black;
+//   color: white;
+// }
+
 div > .project-page {
   background-color: black;
-  color: white;
+  color:white;
+  .page-body > .container > .card {
+    .card-img{
+      margin:2rem;
+      img{
+        margin: auto;
+        width: 100%;
+      }
+    }
+
+  }
+}
+
+
+
+@media screen and (max-width: 1400px) {
+  div > .project-page {
+
+    .page-body > .container > .card {
+   
+      .card-img{
+        margin:0rem;
+        // img{
+        //   margin: auto;
+        //   width: 100%;
+        // }
+      }
+  
+    }
+  }
 }

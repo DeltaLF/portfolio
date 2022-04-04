@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9424d513.css",
+    "main.js": "/static/js/main.73e055c6.js",
+    "static/media/onlineCourse.jpg": "/static/media/onlineCourse.5f489f11ff3cfab14748.jpg",
+    "static/media/me.jpg": "/static/media/me.2bc00e31c954f2b604e8.jpg",
+    "static/media/web_dev.jpg": "/static/media/web_dev.12396e72a8061a273c7f.jpg",
+    "static/media/mysql_bootcamp.jpg": "/static/media/mysql_bootcamp.3404ece1fbf074c1f491.jpg",
+    "static/media/yelpCamp.jpg": "/static/media/yelpCamp.7f3c07c469484f8be7bb.jpg",
+    "static/media/javascript_weired_part.jpg": "/static/media/javascript_weired_part.b16dc5b5d0edefa0c987.jpg",
+    "static/media/web_dev_bootcamp.jpg": "/static/media/web_dev_bootcamp.b405679f070b45bed046.jpg",
+    "static/media/videos.jpg": "/static/media/videos.c9c83166d6dba4eb914a.jpg",
+    "static/media/modern_react.jpg": "/static/media/modern_react.aa66c7ab9b865c7d5e70.jpg",
+    "static/media/portrait_example.jpg": "/static/media/portrait_example.fbd0aa7a92b68d92a763.jpg",
+    "index.html": "/index.html",
+    "main.9424d513.css.map": "/static/css/main.9424d513.css.map",
+    "main.73e055c6.js.map": "/static/js/main.73e055c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9424d513.css",
+    "static/js/main.73e055c6.js"
+  ]
+}

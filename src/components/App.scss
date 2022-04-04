@@ -2,6 +2,7 @@ $theme-background : #A8B090;
 $theme-card :  #E9EDC9;
 
 
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -130,6 +131,8 @@ table {
 
 * {
   box-sizing: border-box;
+  font-family: 'Cabin', sans-serif;
+font-family: 'Roboto', sans-serif;
   // prevent padding casues overflow
 }
 

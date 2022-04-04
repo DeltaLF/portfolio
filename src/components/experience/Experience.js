@@ -21,7 +21,7 @@ class Experience extends React.Component {
           >
             <h3 className="vertical-timeline-element-title"> {title}</h3>
 
-            <p> {jobDesc}</p>
+            <p>{jobDesc}</p>
             <ol>
               {skillList.map((skill, index) => {
                 return (

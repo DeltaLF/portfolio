@@ -36,18 +36,18 @@ const header = {
 const experience = [
   {
     date: "2021 - present",
-    title: "Job titleII",
+    title: "Self-taught web developer",
     icon: "fab fa-js",
     jobDesc:
-      "     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque aliquam, vitae, tempora placeat, quibusdam ex eum cupiditate dolorum deserunt quod dolore officiis voluptates expedita amet ipsa iste debitis quis itaque.",
+      "Currently I have already finished 5 courses and there are more courses undergoing. I also deploy 3 websites based on the knowledge I acquired.",
     skillList: ["javascript", "react", "html", "css"],
   },
   {
     date: "2018 - present",
-    title: "Job title",
+    title: "Anti-Virus Analyst ",
     icon: "fab fa-python",
     jobDesc:
-      "     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque aliquam, vitae, tempora placeat, quibusdam ex eum cupiditate dolorum deserunt quod dolore officiis voluptates expedita amet ipsa iste debitis quis itaque.",
+      "As an AV Analyst I am mainly responsible for analyzing malicious samples with static, dynamical approach and building corresponding signature files to detect those new virus mutations. Also, I conduct a side project to build a pipeline to automatically generate dynamical analysis report based on python Airflow, and Cuckoo sandbox (an open source automated malware analysis). With the reports, I then extract features from them and use python sklearn package to train a classifier which can help analysts to pre-classify unknown samples to optimized our work flow.",
     skillList: ["python", "airflow"],
   },
 ];

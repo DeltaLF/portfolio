@@ -30,7 +30,12 @@ const socialMediaLinks = [
 ];
 
 const header = {
-  intro: ["Hello World!", 1000, "I'm xxx, a web developer", 3000],
+  intro: [
+    "Hello World!",
+    1000,
+    "I'm Patrick Tsai, an Anti-Virus Analyst / web developer",
+    5000,
+  ],
 };
 
 const experience = [
@@ -39,7 +44,7 @@ const experience = [
     title: "Self-taught web developer",
     icon: "fab fa-js",
     jobDesc:
-      "Currently I have already finished 5 courses and there are more courses undergoing. I also deploy 3 websites based on the knowledge I acquired.",
+      "I take several Udemy web developer classes in my free time, and now I have finished 5 courses. Besides, there are some more classes undergoing. I also deploy 3 websites based on the knowledge I acquired.",
     skillList: ["javascript", "react", "html", "css"],
   },
   {

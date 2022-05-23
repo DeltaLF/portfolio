@@ -3,6 +3,8 @@ import cert2 from "./resources/images/certificate/modern_react.jpg";
 import cert3 from "./resources/images/certificate/mysql_bootcamp.jpg";
 import cert4 from "./resources/images/certificate/web_dev.jpg";
 import cert5 from "./resources/images/certificate/web_dev_bootcamp.jpg";
+import cert6 from "./resources/images/certificate/data_structure_and_algorithm.jpg";
+import cert7 from "./resources/images/certificate/typescript.jpg";
 
 import project1 from "./resources/images/project/onlineCourse.jpg";
 import project2 from "./resources/images/project/videos.jpg";
@@ -157,6 +159,8 @@ const certificates = [
   { title: "MsySQL", imgPath: cert3 },
   { title: "Full stack", imgPath: cert4 },
   { title: "Full stack", imgPath: cert5 },
+  { title: "Data structure & algorithm", imgPath: cert6 },
+  { title: "Typescript", imgPath: cert7 },
 ];
 export {
   seo,
